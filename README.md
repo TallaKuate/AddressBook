@@ -1,7 +1,8 @@
 # AddressBook
-RiskFirst – Technical Exercise 
+This is a .net core 3.1 application that uses a microservices architecture. 
 
-Architecture Summary:
+
+# Architecture Summary:
 
 This application is composed of:
 
@@ -17,3 +18,10 @@ This application is composed of:
 
 
 An event bus can be used later in order to synchronize the data between the microservices. 
+
+# How To run the Microservices?
+
+All the microservices are code-first APIs. By starting all the API at the same time, all the databases will be created with the seed data. You can use the Swagger interface in order to test the microservices individually or with the API gateways.
+
+# Tests
+Each microservice has a functional and a unit test. Theses test also run successfully. 
