@@ -17,7 +17,8 @@ namespace Microservices.User.API.Infrastructure
                 return;   // DB has been seeded
             }
 
-            GetData();
+            var result = GetData();
+            context.Users.AddRange(result);
 
             try
             {
