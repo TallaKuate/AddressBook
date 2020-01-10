@@ -24,4 +24,4 @@ An event bus can be used later in order to synchronize the data between the micr
 All the microservices are code-first APIs. By starting all the API at the same time, all the databases will be created with the seed data. You can use the Swagger interface in order to test the microservices individually or with the API gateways.
 
 # Tests
-Each microservice has a functional and a unit test. Theses test also run successfully. 
+Each microservice has a functional and a unit test. These tests also run successfully. 
