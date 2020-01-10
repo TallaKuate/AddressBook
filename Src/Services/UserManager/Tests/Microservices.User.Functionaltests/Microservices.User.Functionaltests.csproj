@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Microservices.User.API\Microservices.User.API.csproj" />
+    <ProjectReference Include="..\..\Microservices.User.API\Microservices.User.API.csproj" />
   </ItemGroup>
 
   <ItemGroup>
