@@ -12,9 +12,9 @@ This application is composed of:
 
 ---> UserManager API that will deal with the user domain data. A get request is implemented for demo: get a user by Id.
 
----> And the AddressBook API that will actually manage the user addresses. A get request is implemented: get all user addresses grouped by city. 
+---> And the AddressBook API that will actually manage the user addresses. A get request is implemented: get all user addresses grouped by city. The associated table can be considered as “Cold data” in a central reporting database. 
 
-2) An API Gateways that gives access to the microservices functionalities. 
+2) An API Gateway that gives access to the microservices functionalities. 
 
 
 An event bus can be used later in order to synchronize the data between the microservices. 
