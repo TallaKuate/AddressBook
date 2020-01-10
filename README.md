@@ -14,3 +14,6 @@ This application is composed of:
 ---> And the AddressBook API that will actually manage the user addresses. A get request is implemented: get all user addresses grouped by city. 
 
 2) An API Gateways that gives access to the microservices functionalities. 
+
+
+An event bus can be used later in order to synchronize the data between the microservices. 
